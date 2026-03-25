@@ -104,9 +104,9 @@ public class Main {
         Post post = new Post.Builder().title("Weather").text("Temperature is 9 degrees.").build();
 
         // Printing Post to console.
-        System.out.println("Title: " + post.getTitle());
-        System.out.println("Text: " + post.getText());
-        System.out.println("Date: " + post.getDate());
+        System.out.println("Title: " + post.getTitle()); // Output: Title: Weather
+        System.out.println("Text: " + post.getText()); // Output: Text: Temperature is 9 degrees.
+        System.out.println("Date: " + post.getDate()); // Output: Date: 2026-03-25
 
     }
 }
